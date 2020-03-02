@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  BellDemo
 //
 //  Created by Ronak Shastri on 2020-03-01.
@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     var viewModel = HomeViewModel()
     
