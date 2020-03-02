@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D18CF5240CAC8900A73C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CF4240CAC8900A73C52 /* AppDelegate.swift */; };
+		D4D18CF7240CAC8900A73C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CF6240CAC8900A73C52 /* SceneDelegate.swift */; };
+		D4D18CF9240CAC8900A73C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CF8240CAC8900A73C52 /* ViewController.swift */; };
+		D4D18CFC240CAC8900A73C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D18CFA240CAC8900A73C52 /* Main.storyboard */; };
+		D4D18CFE240CAC8B00A73C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D18CFD240CAC8B00A73C52 /* Assets.xcassets */; };
+		D4D18D01240CAC8B00A73C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D18CFF240CAC8B00A73C52 /* LaunchScreen.storyboard */; };
+		D4D18D0C240CAC8B00A73C52 /* BellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D0B240CAC8B00A73C52 /* BellDemoTests.swift */; };
+		D4D18D17240CAC8C00A73C52 /* BellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D16240CAC8C00A73C52 /* BellDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D18D08240CAC8B00A73C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D18CE9240CAC8900A73C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D18CF0240CAC8900A73C52;
+			remoteInfo = BellDemo;
+		};
+		D4D18D13240CAC8C00A73C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D18CE9240CAC8900A73C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D18CF0240CAC8900A73C52;
+			remoteInfo = BellDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D18CF1240CAC8900A73C52 /* BellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D18CF4240CAC8900A73C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4D18CF6240CAC8900A73C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4D18CF8240CAC8900A73C52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4D18CFB240CAC8900A73C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4D18CFD240CAC8B00A73C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4D18D00240CAC8B00A73C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4D18D02240CAC8B00A73C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D18D07240CAC8B00A73C52 /* BellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D18D0B240CAC8B00A73C52 /* BellDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellDemoTests.swift; sourceTree = "<group>"; };
+		D4D18D0D240CAC8C00A73C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D18D12240CAC8C00A73C52 /* BellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D18D16240CAC8C00A73C52 /* BellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellDemoUITests.swift; sourceTree = "<group>"; };
+		D4D18D18240CAC8C00A73C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D18CEE240CAC8900A73C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D18D04240CAC8B00A73C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D18D0F240CAC8C00A73C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D18CE8240CAC8900A73C52 = {
+			isa = PBXGroup;
+			children = (
+				D4D18CF3240CAC8900A73C52 /* BellDemo */,
+				D4D18D0A240CAC8B00A73C52 /* BellDemoTests */,
+				D4D18D15240CAC8C00A73C52 /* BellDemoUITests */,
+				D4D18CF2240CAC8900A73C52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D18CF2240CAC8900A73C52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18CF1240CAC8900A73C52 /* BellDemo.app */,
+				D4D18D07240CAC8B00A73C52 /* BellDemoTests.xctest */,
+				D4D18D12240CAC8C00A73C52 /* BellDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D18CF3240CAC8900A73C52 /* BellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18CF4240CAC8900A73C52 /* AppDelegate.swift */,
+				D4D18CF6240CAC8900A73C52 /* SceneDelegate.swift */,
+				D4D18CF8240CAC8900A73C52 /* ViewController.swift */,
+				D4D18CFA240CAC8900A73C52 /* Main.storyboard */,
+				D4D18CFD240CAC8B00A73C52 /* Assets.xcassets */,
+				D4D18CFF240CAC8B00A73C52 /* LaunchScreen.storyboard */,
+				D4D18D02240CAC8B00A73C52 /* Info.plist */,
+			);
+			path = BellDemo;
+			sourceTree = "<group>";
+		};
+		D4D18D0A240CAC8B00A73C52 /* BellDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D0B240CAC8B00A73C52 /* BellDemoTests.swift */,
+				D4D18D0D240CAC8C00A73C52 /* Info.plist */,
+			);
+			path = BellDemoTests;
+			sourceTree = "<group>";
+		};
+		D4D18D15240CAC8C00A73C52 /* BellDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D16240CAC8C00A73C52 /* BellDemoUITests.swift */,
+				D4D18D18240CAC8C00A73C52 /* Info.plist */,
+			);
+			path = BellDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D18CF0240CAC8900A73C52 /* BellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D18D1B240CAC8C00A73C52 /* Build configuration list for PBXNativeTarget "BellDemo" */;
+			buildPhases = (
+				D4D18CED240CAC8900A73C52 /* Sources */,
+				D4D18CEE240CAC8900A73C52 /* Frameworks */,
+				D4D18CEF240CAC8900A73C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BellDemo;
+			productName = BellDemo;
+			productReference = D4D18CF1240CAC8900A73C52 /* BellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D18D06240CAC8B00A73C52 /* BellDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D18D1E240CAC8C00A73C52 /* Build configuration list for PBXNativeTarget "BellDemoTests" */;
+			buildPhases = (
+				D4D18D03240CAC8B00A73C52 /* Sources */,
+				D4D18D04240CAC8B00A73C52 /* Frameworks */,
+				D4D18D05240CAC8B00A73C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D18D09240CAC8B00A73C52 /* PBXTargetDependency */,
+			);
+			name = BellDemoTests;
+			productName = BellDemoTests;
+			productReference = D4D18D07240CAC8B00A73C52 /* BellDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4D18D11240CAC8C00A73C52 /* BellDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D18D21240CAC8C00A73C52 /* Build configuration list for PBXNativeTarget "BellDemoUITests" */;
+			buildPhases = (
+				D4D18D0E240CAC8C00A73C52 /* Sources */,
+				D4D18D0F240CAC8C00A73C52 /* Frameworks */,
+				D4D18D10240CAC8C00A73C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D18D14240CAC8C00A73C52 /* PBXTargetDependency */,
+			);
+			name = BellDemoUITests;
+			productName = BellDemoUITests;
+			productReference = D4D18D12240CAC8C00A73C52 /* BellDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D18CE9240CAC8900A73C52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Ronak;
+				TargetAttributes = {
+					D4D18CF0240CAC8900A73C52 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D4D18D06240CAC8B00A73C52 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D4D18CF0240CAC8900A73C52;
+					};
+					D4D18D11240CAC8C00A73C52 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = D4D18CF0240CAC8900A73C52;
+					};
+				};
+			};
+			buildConfigurationList = D4D18CEC240CAC8900A73C52 /* Build configuration list for PBXProject "BellDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D18CE8240CAC8900A73C52;
+			productRefGroup = D4D18CF2240CAC8900A73C52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D18CF0240CAC8900A73C52 /* BellDemo */,
+				D4D18D06240CAC8B00A73C52 /* BellDemoTests */,
+				D4D18D11240CAC8C00A73C52 /* BellDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D18CEF240CAC8900A73C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D18D01240CAC8B00A73C52 /* LaunchScreen.storyboard in Resources */,
+				D4D18CFE240CAC8B00A73C52 /* Assets.xcassets in Resources */,
+				D4D18CFC240CAC8900A73C52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D18D05240CAC8B00A73C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D18D10240CAC8C00A73C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D18CED240CAC8900A73C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D18CF9240CAC8900A73C52 /* ViewController.swift in Sources */,
+				D4D18CF5240CAC8900A73C52 /* AppDelegate.swift in Sources */,
+				D4D18CF7240CAC8900A73C52 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D18D03240CAC8B00A73C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D18D0C240CAC8B00A73C52 /* BellDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D18D0E240CAC8C00A73C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D18D17240CAC8C00A73C52 /* BellDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D18D09240CAC8B00A73C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D18CF0240CAC8900A73C52 /* BellDemo */;
+			targetProxy = D4D18D08240CAC8B00A73C52 /* PBXContainerItemProxy */;
+		};
+		D4D18D14240CAC8C00A73C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D18CF0240CAC8900A73C52 /* BellDemo */;
+			targetProxy = D4D18D13240CAC8C00A73C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4D18CFA240CAC8900A73C52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D18CFB240CAC8900A73C52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4D18CFF240CAC8B00A73C52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D18D00240CAC8B00A73C52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4D18D19240CAC8C00A73C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4D18D1A240CAC8C00A73C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D18D1C240CAC8C00A73C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ronak.BellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D18D1D240CAC8C00A73C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ronak.BellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4D18D1F240CAC8C00A73C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ronak.BellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BellDemo.app/BellDemo";
+			};
+			name = Debug;
+		};
+		D4D18D20240CAC8C00A73C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ronak.BellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BellDemo.app/BellDemo";
+			};
+			name = Release;
+		};
+		D4D18D22240CAC8C00A73C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ronak.BellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BellDemo;
+			};
+			name = Debug;
+		};
+		D4D18D23240CAC8C00A73C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ronak.BellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BellDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D18CEC240CAC8900A73C52 /* Build configuration list for PBXProject "BellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D18D19240CAC8C00A73C52 /* Debug */,
+				D4D18D1A240CAC8C00A73C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D18D1B240CAC8C00A73C52 /* Build configuration list for PBXNativeTarget "BellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D18D1C240CAC8C00A73C52 /* Debug */,
+				D4D18D1D240CAC8C00A73C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D18D1E240CAC8C00A73C52 /* Build configuration list for PBXNativeTarget "BellDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D18D1F240CAC8C00A73C52 /* Debug */,
+				D4D18D20240CAC8C00A73C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D18D21240CAC8C00A73C52 /* Build configuration list for PBXNativeTarget "BellDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D18D22240CAC8C00A73C52 /* Debug */,
+				D4D18D23240CAC8C00A73C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4D18CE9240CAC8900A73C52 /* Project object */;
+}
