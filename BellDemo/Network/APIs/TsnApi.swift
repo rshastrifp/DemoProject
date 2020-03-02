@@ -18,7 +18,13 @@ class TsnApi: Api {
     
     func fetchData(api: Api, success: @escaping SuccessResponseModel, failure: @escaping Failure) {
         ApiClient().execute(api: api, success: { (data) in
-            let tsnResponse = try? JSONDecoder().decode(TsnResponseModel.self, from: data)
+            let responseJson = try? JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
+            //I prefer doing this parsing using Codable protocol.
+            //But for this demo I have used only one object "LastModifiedDateTime".
+            if let date = responseJson?["LastModifiedDateTime"] as? String{
+                let tsn = TsnResponseModel(lastModifiedDateTime: date)
+                success(tsn)
+            }
         }) { (error) in
             failure(error)
         }

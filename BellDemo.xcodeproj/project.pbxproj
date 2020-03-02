@@ -23,6 +23,8 @@
 		D4D18D31240CADDF00A73C52 /* Apis.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4D18D2C240CADDF00A73C52 /* Apis.plist */; };
 		D4D18D33240CAE4400A73C52 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = D4D18D32240CAE4400A73C52 /* podfile */; };
 		D4D18D37240CAF8600A73C52 /* TsnResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D35240CAF8600A73C52 /* TsnResponseModel.swift */; };
+		D4D18D3B240CBB8100A73C52 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D3A240CBB8100A73C52 /* HomeViewModel.swift */; };
+		D4D18D3E240CCAEB00A73C52 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D3D240CCAEB00A73C52 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		D4D18D2C240CADDF00A73C52 /* Apis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Apis.plist; sourceTree = "<group>"; };
 		D4D18D32240CAE4400A73C52 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
 		D4D18D35240CAF8600A73C52 /* TsnResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TsnResponseModel.swift; sourceTree = "<group>"; };
+		D4D18D3A240CBB8100A73C52 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D4D18D3D240CCAEB00A73C52 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +142,12 @@
 		D4D18CF3240CAC8900A73C52 /* BellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4D18D3C240CCAD900A73C52 /* Extension */,
 				D4D18D24240CADDF00A73C52 /* Network */,
 				D4D18D34240CAF8600A73C52 /* Models */,
 				D4D18CF4240CAC8900A73C52 /* AppDelegate.swift */,
 				D4D18CF6240CAC8900A73C52 /* SceneDelegate.swift */,
-				D4D18CF8240CAC8900A73C52 /* ViewController.swift */,
+				D4D18D39240CBB6100A73C52 /* Home */,
 				D4D18CFA240CAC8900A73C52 /* Main.storyboard */,
 				D4D18CFD240CAC8B00A73C52 /* Assets.xcassets */,
 				D4D18CFF240CAC8B00A73C52 /* LaunchScreen.storyboard */,
@@ -211,6 +216,23 @@
 				D4D18D35240CAF8600A73C52 /* TsnResponseModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D4D18D39240CBB6100A73C52 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18CF8240CAC8900A73C52 /* ViewController.swift */,
+				D4D18D3A240CBB8100A73C52 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D4D18D3C240CCAD900A73C52 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D3D240CCAEB00A73C52 /* Date.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,6 +395,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D18CF9240CAC8900A73C52 /* ViewController.swift in Sources */,
+				D4D18D3E240CCAEB00A73C52 /* Date.swift in Sources */,
+				D4D18D3B240CBB8100A73C52 /* HomeViewModel.swift in Sources */,
 				D4D18D37240CAF8600A73C52 /* TsnResponseModel.swift in Sources */,
 				D4D18CF5240CAC8900A73C52 /* AppDelegate.swift in Sources */,
 				D4D18CF7240CAC8900A73C52 /* SceneDelegate.swift in Sources */,
