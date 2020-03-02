@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2ADC12BEECD7EF45AD6D612 /* libPods-BellDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BC82182F4C4A50B7718F7F /* libPods-BellDemo.a */; };
 		D4D18CF5240CAC8900A73C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CF4240CAC8900A73C52 /* AppDelegate.swift */; };
 		D4D18CF7240CAC8900A73C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CF6240CAC8900A73C52 /* SceneDelegate.swift */; };
 		D4D18CF9240CAC8900A73C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18CF8240CAC8900A73C52 /* ViewController.swift */; };
@@ -15,6 +16,13 @@
 		D4D18D01240CAC8B00A73C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D18CFF240CAC8B00A73C52 /* LaunchScreen.storyboard */; };
 		D4D18D0C240CAC8B00A73C52 /* BellDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D0B240CAC8B00A73C52 /* BellDemoTests.swift */; };
 		D4D18D17240CAC8C00A73C52 /* BellDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D16240CAC8C00A73C52 /* BellDemoUITests.swift */; };
+		D4D18D2D240CADDF00A73C52 /* TsnApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D26240CADDF00A73C52 /* TsnApi.swift */; };
+		D4D18D2E240CADDF00A73C52 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D28240CADDF00A73C52 /* ApiClient.swift */; };
+		D4D18D2F240CADDF00A73C52 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D29240CADDF00A73C52 /* API.swift */; };
+		D4D18D30240CADDF00A73C52 /* EnvironmentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D2B240CADDF00A73C52 /* EnvironmentConfig.swift */; };
+		D4D18D31240CADDF00A73C52 /* Apis.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4D18D2C240CADDF00A73C52 /* Apis.plist */; };
+		D4D18D33240CAE4400A73C52 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = D4D18D32240CAE4400A73C52 /* podfile */; };
+		D4D18D37240CAF8600A73C52 /* TsnResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D18D35240CAF8600A73C52 /* TsnResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153D6655DD5242D7FBCC5725 /* Pods-BellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BellDemo.release.xcconfig"; path = "Target Support Files/Pods-BellDemo/Pods-BellDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6A21403DA620E92618C5ADE6 /* Pods-BellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BellDemo.debug.xcconfig"; path = "Target Support Files/Pods-BellDemo/Pods-BellDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A9BC82182F4C4A50B7718F7F /* libPods-BellDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BellDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D18CF1240CAC8900A73C52 /* BellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D18CF4240CAC8900A73C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4D18CF6240CAC8900A73C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		D4D18D12240CAC8C00A73C52 /* BellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D18D16240CAC8C00A73C52 /* BellDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellDemoUITests.swift; sourceTree = "<group>"; };
 		D4D18D18240CAC8C00A73C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D18D26240CADDF00A73C52 /* TsnApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TsnApi.swift; sourceTree = "<group>"; };
+		D4D18D28240CADDF00A73C52 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D4D18D29240CADDF00A73C52 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D4D18D2B240CADDF00A73C52 /* EnvironmentConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentConfig.swift; sourceTree = "<group>"; };
+		D4D18D2C240CADDF00A73C52 /* Apis.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Apis.plist; sourceTree = "<group>"; };
+		D4D18D32240CAE4400A73C52 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		D4D18D35240CAF8600A73C52 /* TsnResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TsnResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2ADC12BEECD7EF45AD6D612 /* libPods-BellDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +95,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		437082D2577BBCE30E68AC6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A21403DA620E92618C5ADE6 /* Pods-BellDemo.debug.xcconfig */,
+				153D6655DD5242D7FBCC5725 /* Pods-BellDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84BD4C8DBD8BD3DD0D13A221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9BC82182F4C4A50B7718F7F /* libPods-BellDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4D18CE8240CAC8900A73C52 = {
 			isa = PBXGroup;
 			children = (
+				D4D18D32240CAE4400A73C52 /* podfile */,
 				D4D18CF3240CAC8900A73C52 /* BellDemo */,
 				D4D18D0A240CAC8B00A73C52 /* BellDemoTests */,
 				D4D18D15240CAC8C00A73C52 /* BellDemoUITests */,
 				D4D18CF2240CAC8900A73C52 /* Products */,
+				437082D2577BBCE30E68AC6A /* Pods */,
+				84BD4C8DBD8BD3DD0D13A221 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +138,8 @@
 		D4D18CF3240CAC8900A73C52 /* BellDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4D18D24240CADDF00A73C52 /* Network */,
+				D4D18D34240CAF8600A73C52 /* Models */,
 				D4D18CF4240CAC8900A73C52 /* AppDelegate.swift */,
 				D4D18CF6240CAC8900A73C52 /* SceneDelegate.swift */,
 				D4D18CF8240CAC8900A73C52 /* ViewController.swift */,
@@ -128,6 +169,50 @@
 			path = BellDemoUITests;
 			sourceTree = "<group>";
 		};
+		D4D18D24240CADDF00A73C52 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D25240CADDF00A73C52 /* APIs */,
+				D4D18D27240CADDF00A73C52 /* Core */,
+				D4D18D2A240CADDF00A73C52 /* Config */,
+				D4D18D2C240CADDF00A73C52 /* Apis.plist */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D4D18D25240CADDF00A73C52 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D26240CADDF00A73C52 /* TsnApi.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		D4D18D27240CADDF00A73C52 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D28240CADDF00A73C52 /* ApiClient.swift */,
+				D4D18D29240CADDF00A73C52 /* API.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D4D18D2A240CADDF00A73C52 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D2B240CADDF00A73C52 /* EnvironmentConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D4D18D34240CAF8600A73C52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4D18D35240CAF8600A73C52 /* TsnResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4D18D1B240CAC8C00A73C52 /* Build configuration list for PBXNativeTarget "BellDemo" */;
 			buildPhases = (
+				97FFEDA520107FD9FDD7F1CB /* [CP] Check Pods Manifest.lock */,
 				D4D18CED240CAC8900A73C52 /* Sources */,
 				D4D18CEE240CAC8900A73C52 /* Frameworks */,
 				D4D18CEF240CAC8900A73C52 /* Resources */,
@@ -233,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D18D01240CAC8B00A73C52 /* LaunchScreen.storyboard in Resources */,
+				D4D18D31240CADDF00A73C52 /* Apis.plist in Resources */,
+				D4D18D33240CAE4400A73C52 /* podfile in Resources */,
 				D4D18CFE240CAC8B00A73C52 /* Assets.xcassets in Resources */,
 				D4D18CFC240CAC8900A73C52 /* Main.storyboard in Resources */,
 			);
@@ -254,14 +342,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97FFEDA520107FD9FDD7F1CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BellDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4D18CED240CAC8900A73C52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D4D18CF9240CAC8900A73C52 /* ViewController.swift in Sources */,
+				D4D18D37240CAF8600A73C52 /* TsnResponseModel.swift in Sources */,
 				D4D18CF5240CAC8900A73C52 /* AppDelegate.swift in Sources */,
 				D4D18CF7240CAC8900A73C52 /* SceneDelegate.swift in Sources */,
+				D4D18D2D240CADDF00A73C52 /* TsnApi.swift in Sources */,
+				D4D18D2F240CADDF00A73C52 /* API.swift in Sources */,
+				D4D18D30240CADDF00A73C52 /* EnvironmentConfig.swift in Sources */,
+				D4D18D2E240CADDF00A73C52 /* ApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +550,7 @@
 		};
 		D4D18D1C240CAC8C00A73C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A21403DA620E92618C5ADE6 /* Pods-BellDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +568,7 @@
 		};
 		D4D18D1D240CAC8C00A73C52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153D6655DD5242D7FBCC5725 /* Pods-BellDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

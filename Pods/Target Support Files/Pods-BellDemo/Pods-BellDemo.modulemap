@@ -1,0 +1,6 @@
+module Pods_BellDemo {
+  umbrella header "Pods-BellDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
